@@ -1,0 +1,35 @@
+.ex {
+  .inline {
+    margin: 0px auto;
+    text-align: left;
+    width: 400px;
+  }
+
+
+  p,
+  ol,
+  h4 {
+    text-align: left;
+  }
+
+  h5 {
+    text-align: left;
+    font-size: 18px;
+  }
+
+
+  hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px gray solid;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+/*
+
+
+  */

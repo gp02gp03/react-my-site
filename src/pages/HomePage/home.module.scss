@@ -1,0 +1,68 @@
+.wraps {
+  flex: 1;
+  width: 80%;
+  margin: 0px auto;
+
+
+  .brief {
+    text-align: center;
+
+    h2 {
+      padding: 12px 0px;
+      font-size: 24px;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 120px;
+      margin-top: 20px;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+
+      li {
+        padding: 6px 10px;
+        margin: 12px 5px;
+        border-radius: 3px;
+      }
+    }
+
+    p {
+      padding: 5px 0px;
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+
+  .work {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    background-color: blue($color: #000000);
+
+    p {
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    div {
+      font-family: Times, Times;
+    }
+
+    h4,
+    h6,
+    ol,
+    ul {
+      color: black;
+    }
+
+    h6 {
+      font-size: 18px;
+    }
+  }
+
+}

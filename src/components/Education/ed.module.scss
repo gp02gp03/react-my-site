@@ -1,0 +1,23 @@
+.ed {
+  .inline {
+    margin: 0px auto;
+    /*div對齊效果*/
+    /*display: inline對齊效果*/
+  }
+
+  h5,
+  p,
+  ol,
+  h4 {
+    text-align: left;
+  }
+
+  hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px gray solid;
+    margin: 0;
+    padding: 0;
+  }
+}

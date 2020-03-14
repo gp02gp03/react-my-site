@@ -1,0 +1,24 @@
+.skill {
+  .inline {
+    margin: 0px auto 20px auto;
+    text-align: center;
+  }
+
+  hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px gray solid;
+    margin: 0;
+    padding: 0;
+  }
+
+  strong {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
